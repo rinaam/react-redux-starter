@@ -1,0 +1,8 @@
+@import "../../Variables//spacing.scss";
+
+.input {
+  margin: $extra-small;
+  &:focus {
+    outline: none;
+  }
+}

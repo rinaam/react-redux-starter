@@ -1,0 +1,19 @@
+@import "../../Variables/colors.scss";
+@import "../../Variables/spacing.scss";
+
+.HeaderComponent {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: $header-background-color;
+  width: 100%;
+  .nav-bar {
+    margin: $medium;
+    text-align: center;
+    &_item {
+      padding: $large;
+      text-decoration: none;
+      color: $nav-bar-item-color;
+    }
+  }
+}

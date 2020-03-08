@@ -1,0 +1,10 @@
+@import "../../Variables//spacing.scss";
+
+.ButtonComponent {
+  padding: $medium;
+  border-radius: $small;
+  margin: $extra-small;
+  &:focus {
+    outline: none;
+  }
+}
